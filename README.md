@@ -8,6 +8,7 @@
 
 ### Development
 ```
+Create database medkito-dev
 yarn
 yarn seed (first time)
 yarn dev
