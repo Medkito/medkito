@@ -1,0 +1,9 @@
+query getProgramMedic {
+  getProgramMedic {
+    luni
+    marti
+    miercuri
+    joi
+    vineri
+  }
+}

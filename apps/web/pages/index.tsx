@@ -1,10 +1,14 @@
-import { Button } from "ui";
+import withoutAuth from "lib/hocs/withoutAuth";
+import React from "react";
+import HomepageHeader from "../components/ui/HomepageHeader/HomepageHeader";
+import Layout from "../components/ui/Layout/Layout";
 
-export default function Web() {
+const IndexPage = () => {
   return (
-    <div>
-      <h1>Web</h1>
-      <Button />
-    </div>
+    <Layout menuType="relative">
+      <HomepageHeader />
+    </Layout>
   );
-}
+};
+
+export default withoutAuth(IndexPage);

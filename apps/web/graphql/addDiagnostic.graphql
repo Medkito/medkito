@@ -1,0 +1,14 @@
+mutation addDiagnostic(
+  $name: String!
+  $specialtyId: Int!
+  $symptomsIds: [Int!]!
+) {
+  addDiagnostic(
+    name: $name
+    specialtyId: $specialtyId
+    symptomsIds: $symptomsIds
+  ) {
+    id
+    name
+  }
+}

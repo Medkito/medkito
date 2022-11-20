@@ -1,0 +1,3 @@
+mutation addSpecialty($name: String!) {
+  addSpecialty(name: $name)
+}

@@ -1,0 +1,12 @@
+query medics {
+  medics {
+    id
+    name
+    email
+    avatarUrl
+    specialties {
+      id
+      denumire
+    }
+  }
+}

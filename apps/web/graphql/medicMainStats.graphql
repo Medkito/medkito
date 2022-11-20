@@ -1,0 +1,7 @@
+query MedicMainStats {
+  medicMainStats {
+    intrebariActive
+    cazuriRezolvate
+    consultatiiTotale
+  }
+}

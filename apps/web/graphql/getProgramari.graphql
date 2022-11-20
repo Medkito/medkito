@@ -1,0 +1,11 @@
+query getProgramariMedic {
+  getProgramariMedic {
+    id
+    startDate
+    endDate
+    pacient {
+      name
+      avatarUrl
+    }
+  }
+}

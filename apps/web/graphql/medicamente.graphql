@@ -1,0 +1,6 @@
+query medicamente {
+  medicamente {
+    id
+    name
+  }
+}

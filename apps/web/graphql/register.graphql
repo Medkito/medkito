@@ -1,0 +1,23 @@
+mutation Register(
+  $email: String!
+  $firstName: String!
+  $lastName: String!
+  $password: String!
+  $specialties: [Int!]!
+) {
+  register(
+    data: {
+      email: $email
+      firstName: $firstName
+      lastName: $lastName
+      password: $password
+      specialties: $specialties
+    }
+  ) {
+    accessToken
+    user {
+      id
+      name
+    }
+  }
+}

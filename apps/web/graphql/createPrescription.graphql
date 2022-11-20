@@ -1,0 +1,8 @@
+mutation createPrescription(
+  $programareId: String!
+  $items: [PrescriptionEntry!]!
+) {
+  createPrescription(programareId: $programareId, items: $items) {
+    id
+  }
+}

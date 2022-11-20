@@ -1,0 +1,9 @@
+mutation addMedicament(
+  $name: String!
+) {
+  addMedicament(
+    name: $name
+  ) {
+    id
+  }
+}

@@ -1,0 +1,26 @@
+query getPrescription($prescriptionId: String!) {
+  getPrescription(prescriptionId: $prescriptionId) {
+    id
+    createdAt
+    pacient {
+      id
+      name
+      age
+      sex
+    }
+    medic {
+      id
+      name
+    }
+    items {
+      id
+      interval
+      cantitate
+      zile
+      medicament {
+        id
+        name
+      }
+    }
+  }
+}

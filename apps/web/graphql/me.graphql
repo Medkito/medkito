@@ -1,0 +1,13 @@
+query Me {
+  me {
+    id
+    email
+    name
+    avatarUrl
+    profilePicture
+    specialties {
+      id
+      denumire
+    }
+  }
+}

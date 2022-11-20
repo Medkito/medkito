@@ -1,0 +1,6 @@
+query specialties {
+  specialties {
+    id
+    denumire
+  }
+}

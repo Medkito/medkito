@@ -1,0 +1,14 @@
+query diagnostice {
+  diagnostice {
+    id
+    name
+    specialty {
+      id
+      denumire
+    }
+    symptoms {
+      id
+      name
+    }
+  }
+}

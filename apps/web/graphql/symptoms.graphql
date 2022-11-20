@@ -1,0 +1,10 @@
+query getSymptoms {
+  symptoms {
+    id
+    name
+    diagnostice {
+      id
+      name
+    }
+  }
+}

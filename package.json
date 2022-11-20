@@ -1,5 +1,4 @@
 {
-  "name": "medkit",
   "version": "0.0.0",
   "private": true,
   "workspaces": [
@@ -9,11 +8,13 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
+    "gen": "turbo run gen --scope=web",
+    "seed": "turbo run seed --scope=api",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
-    "eslint-config-custom": "*",
+    "eslint-config-medkito": "*",
     "prettier": "latest",
     "turbo": "latest"
   },
